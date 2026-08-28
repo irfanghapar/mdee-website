@@ -19,20 +19,20 @@
             content="M'Dee makes ready-to-use Penang char koay teow sauce, cooking pastes and sambal. Halal-certified, made in Tasek Gelugor, Pulau Pinang since 2006."
             property="og:description"
         />
-        <!-- TODO: og:image / twitter:image need an absolute URL (https://yourdomain.com/asset/...) once the site is live -->
-        <meta
-            content="asset/GAMBAR%20CHAR%20KOAY%20TEOW.png"
-            property="og:image"
-        />
+        <!-- TODO: replace https://mdeelicious.my with the real domain in og:url and the two image tags below.
+             WhatsApp, Facebook and X only fetch ABSOLUTE urls — a relative path shows no preview image. -->
+        <meta content="https://mdeelicious.my/" property="og:url" />
+        <meta content="M’Dee" property="og:site_name" />
+        <meta content="https://mdeelicious.my/asset/og-image.jpg" property="og:image" />
+        <meta content="1200" property="og:image:width" />
+        <meta content="630" property="og:image:height" />
+        <meta content="M’Dee — Penang char koay teow sauce, pastes and sambal" property="og:image:alt" />
         <meta content="M’Dee — Rahsia rasa ori Penang" name="twitter:title" />
         <meta
             content="M'Dee makes ready-to-use Penang char koay teow sauce, cooking pastes and sambal. Halal-certified, made in Tasek Gelugor, Pulau Pinang since 2006."
             name="twitter:description"
         />
-        <meta
-            content="asset/GAMBAR%20CHAR%20KOAY%20TEOW.png"
-            name="twitter:image"
-        />
+        <meta content="https://mdeelicious.my/asset/og-image.jpg" name="twitter:image" />
         <meta content="website" property="og:type" />
         <meta content="summary_large_image" name="twitter:card" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -59,15 +59,10 @@
                         (n.className += t + "touch");
             })(window, document);
         </script>
-        <link
-            href="https://cdn.prod.website-files.com/62b03a7e084ea567885272c1/62b6e71b1a11bd0d2c990524_favicon.png"
-            rel="shortcut icon"
-            type="image/x-icon"
-        />
-        <link
-            href="https://cdn.prod.website-files.com/62b03a7e084ea567885272c1/62b6e71d0c4d68e450c18586_webclip.png"
-            rel="apple-touch-icon"
-        />
+        <link href="asset/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="asset/favicon-32.png" rel="icon" sizes="32x32" type="image/png" />
+        <link href="asset/favicon-512.png" rel="icon" sizes="512x512" type="image/png" />
+        <link href="asset/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
         <script type="text/javascript">
             window.__WEBFLOW_CURRENCY_SETTINGS = {
                 currencyCode: "USD",
